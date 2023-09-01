@@ -1,0 +1,171 @@
+[
+  {
+    "type": "input",
+    "label": "ФИО (обучающегося)",
+    "name": "fio",
+    "value": "",
+    "is_required": true
+  },
+  {
+    "type": "input",
+    "label": "Дата рождения",
+    "name": "birthdate",
+    "value": "",
+    "is_required": true
+  },
+  {
+    "type": "input",
+    "label": "Телефон(обучающегося)",
+    "name": "phone",
+    "value": "",
+    "is_required": true
+  },
+  {
+    "type": "input",
+    "label": "Электронная почта",
+    "name": "email",
+    "value": "",
+    "is_required": true
+  },
+  {
+    "type": "radio",
+    "label": "Класс:",
+    "name": "class",
+    "is_required": false,
+    "options": [
+      {
+        "label": "11",
+        "value": "11",
+        "is_required": false
+      },
+      {
+        "label": "10",
+        "value": "10",
+        "is_required": false
+      },
+      {
+        "label": "9",
+        "value": "9",
+        "is_required": false
+      }
+    ]
+  },
+  {
+    "type": "checkbox",
+    "label": "Предметы:",
+    "name": "predmets",
+    "options": [
+      {
+        "value": "Математика",
+        "label": "Математика",
+        "is_required": false
+      },
+      {
+        "value": "Русский язык",
+        "label": "Русский язык",
+        "is_required": false
+      },
+      {
+        "value": "Физика",
+        "label": "Физика",
+        "is_required": false
+      },
+      {
+        "value": "Информатика",
+        "label": "Информатика",
+        "is_required": false
+      },
+      {
+        "value": "Обществознание",
+        "label": "Обществознание",
+        "is_required": false
+      },
+      {
+        "value": "История",
+        "label": "История",
+        "is_required": false
+      },
+      {
+        "value": "Биология",
+        "label": "Биология",
+        "is_required": false
+      },
+      {
+        "value": "Химия",
+        "label": "Химия",
+        "is_required": false
+      },
+      {
+        "value": "География",
+        "label": "География",
+        "is_required": false
+      },
+      {
+        "value": "Литература",
+        "label": "Литература",
+        "is_required": false
+      },
+      {
+        "value": "Английский язык",
+        "label": "Английский язык",
+        "is_required": false
+      }
+    ]
+  },
+  {
+    "type": "input",
+    "label": "Если предмета не нашли в списке, укажите другой",
+    "name": "predmets",
+    "value": "",
+    "is_required": false
+  },
+  {
+    "type": "text",
+    "text": "*Если запись осуществляет родитель, то укажите контактные данные:"
+  },
+  {
+    "type": "input",
+    "label": "ФИО(родителя)",
+    "name": "fio",
+    "value": "",
+    "is_required": false
+  },
+  {
+    "type": "input",
+    "label": "Телефон(родителя)",
+    "name": "phone",
+    "value": "",
+    "is_required": false
+  },
+  {
+    "type": "input",
+    "label": "Электронная почта(родителя)",
+    "name": "email",
+    "value": "",
+    "is_required": false
+  },
+
+  {
+    "type": "text",
+    "text": " "
+  },
+  {
+    "name": "fio",
+    "value": "\u041b\u044f\u043b\u0438\u043d \u041c\u0438\u0445\u0430\u0438\u043b \u0410\u043d\u0434\u0440\u0435\u0435\u0432\u0438\u0447"
+  },
+  { "name": "birthdate", "value": "10.10.2000" },
+  { "name": "phone", "value": "+2(433)242-3414" },
+  { "name": "email", "value": "dasf@mail.ru" },
+  { "name": "class", "value": "undefined" },
+  {
+    "name": "predmets",
+    "value": [false, false, false, false, false, false, false, false, false, false, false]
+  },
+  { "name": "predmets", "value": "" },
+  {
+    "name": "fio",
+    "value": "\u041b\u044f\u043b\u0438\u043d \u041c\u0438\u0445\u0430\u0438\u043b \u0410\u043d\u0434\u0440\u0435\u0435\u0432\u0438\u0447"
+  },
+  { "name": "phone", "value": "+2(433)242-3414" },
+  { "name": "email", "value": "dasf@mail.ru" }
+]
