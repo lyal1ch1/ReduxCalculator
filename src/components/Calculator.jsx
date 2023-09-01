@@ -5,8 +5,12 @@ import {
   removeValue,
   incrementByAmount,
   calculateValue,
+  sinValue,
+  cosValue,
+  tanValue,
+  powValue,
 } from '../redux/slices/calculatorSlice';
-function Buttons() {
+function Calculator() {
   const count = useSelector((state) => state.counter.value);
   const dispatch = useDispatch();
   return (
@@ -15,6 +19,18 @@ function Buttons() {
         <span>{count}</span>
       </div>
       <div className="buttons">
+        <button className="operator-button" onClick={() => dispatch(sinValue())}>
+          SIN
+        </button>
+        <button className="operator-button" onClick={() => dispatch(cosValue())}>
+          COS
+        </button>
+        <button className="operator-button" onClick={() => dispatch(tanValue())}>
+          TAN
+        </button>
+        <button className="operator-button" onClick={() => dispatch(powValue())}>
+          Х²
+        </button>
         <button className="operator-button" onClick={() => dispatch(deleteVallue())}>
           AC
         </button>
@@ -82,4 +98,4 @@ function Buttons() {
   );
 }
 
-export default Buttons;
+export default Calculator;

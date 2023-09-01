@@ -1,14 +1,13 @@
 import React from 'react';
 // import Display from './components/display';
-import Buttons from './components/buttons';
+import Calculator from './components/Calculator';
 import './App.css';
 
 function App() {
   return (
     <div className="container">
       <div className="calculator">
-        {/* <Display /> */}
-        <Buttons />
+        <Calculator />
       </div>
     </div>
   );
